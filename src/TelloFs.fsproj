@@ -1,12 +1,11 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
-
+<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>net5.0</TargetFramework>
   </PropertyGroup>
-
   <ItemGroup>
-    <Compile Include="Program.fs" />
+    <Compile Include="Types.fs" />
+    <Compile Include="TelloFs.fs" />
+    <Compile Include="Main.fs" />
   </ItemGroup>
-
 </Project>
